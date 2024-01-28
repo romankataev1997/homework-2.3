@@ -142,7 +142,7 @@
         justify-content: center;
         flex-shrink: 0;
         padding-left: 32px;
-        padding-right: 268px;
+        padding-right: 0px;
         padding-top: 236px;
         color: #FFF;
         font-family: Montserrat;
@@ -249,30 +249,8 @@
         border-radius: 30px;
         background: #EB443F;
     }
-}
-
-    
   }
-
- 
   
-  
-  @media (max-width: 1024px) {
-    .center {
-      padding-left: calc(50% - 393px);
-      padding-right: calc(50% - 393px);
-    }
-  }
-  @media (max-width: 833px) {
-    .center {
-      padding-left: 24px;
-      padding-right: 24px;
-    }
-  }
-  @media (min-width: 768px) {
-    .link-mobile {
-      display: none;
-    }
   }
   @media (max-width: 767px) {
     .center {
